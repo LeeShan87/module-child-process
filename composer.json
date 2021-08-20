@@ -1,0 +1,41 @@
+{
+    "name": "leeshan87/module-child-process",
+    "description": "Asynchronous child process module for Codeception",
+    "keywords": [
+        "codeception",
+        "async",
+        "testing",
+        "child-process",
+        "ReactPHP"
+    ],
+    "homepage": "https://github.com/LeeShan87/module-child-process",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zoltan Toma",
+            "email": "leeshan87@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "react/event-loop": "~1.0",
+        "react/child-process": "~0.6",
+        "codeception/codeception": "^4.0",
+        "leeshan87/reactphp-multi-loop": "~0.1",
+        "codeception/module-asserts": "^1.0.0",
+        "codeception/module-filesystem":"^1.0.0"
+    },
+    "require-dev": {
+        "overtrue/phplint": "~2.4.1"
+    },
+    "suggest": {},
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "config": {
+        "classmap-authoritative": true
+    }
+}
